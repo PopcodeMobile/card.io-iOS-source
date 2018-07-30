@@ -1,3 +1,4 @@
 [submodule "dmz"]
 	path = dmz
-	url = git@github.com:card-io/card.io-dmz.git
+	url = git@github.com:PopcodeMobile/card.io-dmz.git
+	branch = disable-luhn-checksum

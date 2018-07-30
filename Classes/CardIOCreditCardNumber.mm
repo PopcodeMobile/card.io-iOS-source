@@ -110,9 +110,9 @@
   NSUInteger numberLength = [numberWithoutSpaces length];
   if ((cardType == CardIOCreditCardTypeUnrecognized && numberLength >= 14) ||
       (cardType != CardIOCreditCardTypeUnrecognized && numberLength == [CardIOCreditCardNumber numberLengthForCardNumber:number])) {
-    if ([CardIOCreditCardNumber passesLuhnChecksum:numberWithoutSpaces]) {
-      return YES;
-    }
+//    if ([CardIOCreditCardNumber passesLuhnChecksum:numberWithoutSpaces]) {
+    return YES;
+//    }
   }
   return NO;
 }
